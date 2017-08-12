@@ -13,11 +13,11 @@ Use it to convert string to the type of data it applys:
 Example:
 ```javascript
   btparser.parse('John'); // John
-  btparser.parse('3'); // 1 -- instead of '3'
-  btparser.parse('1.6'); // 1 -- instead of '1.6'
+  btparser.parse('3'); // 3 -- instead of '3'
+  btparser.parse('1.6'); // 1.3 -- instead of '1.6'
   btparser.parse('true'); // true -- instead of 'true'
-  btparser.parse('true'); // true -- instead of 'true'
-  btparser.parse('2017-07-21'); // new Date('2017-07-21 ...') -- instead of '2017-07-21'
+  btparser.parse('false'); // false -- instead of 'false'
+  btparser.parse('2017-07-21'); // new Date('2017-07-21') -- instead of '2017-07-21' -- it uses moment to parse the date
 ```  
 
 ## Motivation
