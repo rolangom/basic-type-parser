@@ -1,0 +1,35 @@
+{
+  "name": "basic-type-parser",
+  "version": "1.0.0",
+  "description": "Simple javascript utility library in order to parse a string to basic types: bool, number, date or else keep it as string.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "javascript",
+    "node",
+    "nodejs",
+    "type",
+    "parser",
+    "parse",
+    "boolean",
+    "bool",
+    "number",
+    "date",
+    "string"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rolangom/basic-type-parser.git"
+  },
+  "author": "rolangom",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/rolangom/basic-type-parser/issues"
+  },
+  "homepage": "https://github.com/rolangom/basic-type-parser#readme",
+  "dependencies": {
+    "moment": "^2.18.1"
+  }
+}
