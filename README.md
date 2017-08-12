@@ -1,11 +1,19 @@
-# js-type-parser
+# basic-type-parser
 Simple utility library to parse a string to basic types: bool, number, date or else keep it as string.
 
-Just import the library
+Install the library:
+```
+  npm install --save basic-type-parser
+  yarn add basic-type-parser
+```
+
+Import the library in your javascript:
 ```javascript
   const btparser = require('basic-type-parser');
   or
   var btparser = require('basic-type-parser');
+  or
+  import btparser from 'basic-type-parser';
 ```
   
 Use it to convert string to the type of data it applys:
